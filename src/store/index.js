@@ -1,6 +1,4 @@
-import { writable } from 'svelte/store';
+import { writable } from "svelte/store";
 
-/** @type {number[]} */
-let value = [];
 
-export const doubled = writable(value);
+export const user = writable(null);
